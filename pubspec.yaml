@@ -1,0 +1,67 @@
+name: farm_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  dio:
+  flutter_screenutil:
+  device_preview:
+  flutter_launcher_icons:
+  flutter_native_splash:
+  fl_chart:
+  clipboard:
+  fluttertoast:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  image_path_android: "assets/images/L11.png"
+  image_path_ios: "assets/images/L11.png"
+  android: true
+  ios: true
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/L11.png"
+  min_sdk_android: 29
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#FFFFFF"
+  image: "assets/images/L11.png"
+
+  android_12:
+    color: "#FFFFFF"
+    image: "assets/images/L12.png"
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Black.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+        - asset: assets/fonts/Montserrat-Light.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/Montserrat-Thin.ttf
